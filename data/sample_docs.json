@@ -1,0 +1,27 @@
+[
+    {
+        "id": "doc_1",
+        "title": "Pricing Plans",
+        "content": "ACME Analytics offers three plans: Lite at $29/month includes 5 users and 10GB storage. Pro at $129/month includes 25 users, 100GB storage, and API access. Enterprise is custom-priced and includes unlimited users, SSO, dedicated customer success support, and a 99.9% SLA."
+    },
+    {
+        "id": "doc_2",
+        "title": "API Rate Limits",
+        "content": "ACME Analytics API rate limits vary by plan. Lite plans have no API access. Pro plans allow 1,000 requests per minute. Enterprise plans allow 10,000 requests per minute with burst capacity up to 15,000. Rate limit headers are returned with every response including X-RateLimit-Remaining and X-RateLimit-Reset."
+    },
+    {
+        "id": "doc_3",
+        "title": "Data Retention Policy",
+        "content": "ACME Analytics retains customer data for the duration of the subscription plus 90 days after cancellation. Customers can request full data export in CSV or JSON format at any time. Enterprise customers can configure custom retention policies from 30 days to 7 years to comply with industry regulations. All data is encrypted at rest using AES-256."
+    },
+    {
+        "id": "doc_4",
+        "title": "SSO Configuration",
+        "content": "Single Sign-On is available on Enterprise plans. ACME Analytics supports SAML 2.0 and OIDC protocols. Setup requires providing your IdP metadata URL in the admin console. Supported identity providers include Okta, Azure AD, and Google Workspace. SSO provisioning typically takes 24-48 hours after configuration."
+    },
+    {
+        "id": "doc_5",
+        "title": "Refund Policy",
+        "content": "ACME Analytics offers a 14-day money-back guarantee on all monthly plans. Annual plans may be refunded within 30 days of purchase. After the refund window, cancellations take effect at the end of the current billing cycle. Enterprise contracts follow terms specified in the master service agreement."
+    }
+]
