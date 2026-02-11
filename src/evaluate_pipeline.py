@@ -4,7 +4,11 @@ from datetime import datetime
 from openai import OpenAI
 from dotenv import load_dotenv
 from src.generate_response import generate_answer
-
+""" 
+This is a starter eval suite for demo purposes. 
+In production, eval cases would be loaded from an external dataset, 
+organized by failure category, and run as part of CI/CD
+"""
 load_dotenv()
 client = OpenAI()
 
